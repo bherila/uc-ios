@@ -35,3 +35,4 @@ Carthage/Build
 .DS_Store
 .lock
 
+/swagger-codegen-swift.zip
