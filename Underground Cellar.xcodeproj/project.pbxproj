@@ -7,6 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B5274F201B3E232A009184FE /* OfferItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5274F1F1B3E232A009184FE /* OfferItemCell.xib */; };
+		B5274F221B3E29BA009184FE /* TodaysOffersController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5274F211B3E29BA009184FE /* TodaysOffersController.swift */; };
+		B5274F241B3E29D6009184FE /* OfferCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5274F231B3E29D6009184FE /* OfferCell.swift */; };
+		B5274F261B3E29F5009184FE /* OfferDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5274F251B3E29F5009184FE /* OfferDetailViewController.swift */; };
+		B5274F281B3E2E5A009184FE /* BuyButtonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5274F271B3E2E5A009184FE /* BuyButtonCell.xib */; };
+		B540A7E41B49F395001E9EBA /* OfferDetailTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B540A7E31B49F395001E9EBA /* OfferDetailTabViewController.swift */; };
+		B540A7E61B49F8A2001E9EBA /* LiveFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B540A7E51B49F8A2001E9EBA /* LiveFeedViewController.swift */; };
+		B540A7FD1B49FDE3001E9EBA /* add_user_filled-32.png in Resources */ = {isa = PBXBuildFile; fileRef = B540A7EB1B49FDE3001E9EBA /* add_user_filled-32.png */; };
+		B540A7FE1B49FDE3001E9EBA /* add_user-32.png in Resources */ = {isa = PBXBuildFile; fileRef = B540A7EC1B49FDE3001E9EBA /* add_user-32.png */; };
+		B540A7FF1B49FDE3001E9EBA /* bar_filled-32.png in Resources */ = {isa = PBXBuildFile; fileRef = B540A7ED1B49FDE3001E9EBA /* bar_filled-32.png */; };
+		B540A8001B49FDE3001E9EBA /* bar-32.png in Resources */ = {isa = PBXBuildFile; fileRef = B540A7EE1B49FDE3001E9EBA /* bar-32.png */; };
+		B540A8011B49FDE3001E9EBA /* home_sold_img1.png in Resources */ = {isa = PBXBuildFile; fileRef = B540A7EF1B49FDE3001E9EBA /* home_sold_img1.png */; };
+		B540A8021B49FDE3001E9EBA /* home_sold_img2.png in Resources */ = {isa = PBXBuildFile; fileRef = B540A7F01B49FDE3001E9EBA /* home_sold_img2.png */; };
+		B540A8031B49FDE3001E9EBA /* uc-logotype-black-trans-1200.png in Resources */ = {isa = PBXBuildFile; fileRef = B540A7F11B49FDE3001E9EBA /* uc-logotype-black-trans-1200.png */; };
+		B540A8041B49FDE3001E9EBA /* user_female_circle_filled-32.png in Resources */ = {isa = PBXBuildFile; fileRef = B540A7F21B49FDE3001E9EBA /* user_female_circle_filled-32.png */; };
+		B540A8051B49FDE3001E9EBA /* user_female_circle-32.png in Resources */ = {isa = PBXBuildFile; fileRef = B540A7F31B49FDE3001E9EBA /* user_female_circle-32.png */; };
+		B540A8061B49FDE3001E9EBA /* user_male_circle_filled-32.png in Resources */ = {isa = PBXBuildFile; fileRef = B540A7F41B49FDE3001E9EBA /* user_male_circle_filled-32.png */; };
+		B540A8071B49FDE3001E9EBA /* user_male_circle-32.png in Resources */ = {isa = PBXBuildFile; fileRef = B540A7F51B49FDE3001E9EBA /* user_male_circle-32.png */; };
+		B540A8081B49FDE3001E9EBA /* user_male_filled-32.png in Resources */ = {isa = PBXBuildFile; fileRef = B540A7F61B49FDE3001E9EBA /* user_male_filled-32.png */; };
+		B540A8091B49FDE3001E9EBA /* user_male-32.png in Resources */ = {isa = PBXBuildFile; fileRef = B540A7F71B49FDE3001E9EBA /* user_male-32.png */; };
+		B540A80A1B49FDE3001E9EBA /* wine_bottle_filled-32.png in Resources */ = {isa = PBXBuildFile; fileRef = B540A7F81B49FDE3001E9EBA /* wine_bottle_filled-32.png */; };
+		B540A80B1B49FDE3001E9EBA /* wine_bottle-32.png in Resources */ = {isa = PBXBuildFile; fileRef = B540A7F91B49FDE3001E9EBA /* wine_bottle-32.png */; };
+		B540A80C1B49FDE3001E9EBA /* wine_glass_filled-32.png in Resources */ = {isa = PBXBuildFile; fileRef = B540A7FA1B49FDE3001E9EBA /* wine_glass_filled-32.png */; };
+		B540A80D1B49FDE3001E9EBA /* wine_glass-32.png in Resources */ = {isa = PBXBuildFile; fileRef = B540A7FB1B49FDE3001E9EBA /* wine_glass-32.png */; };
+		B540A80E1B49FDE3001E9EBA /* wines_home.png in Resources */ = {isa = PBXBuildFile; fileRef = B540A7FC1B49FDE3001E9EBA /* wines_home.png */; };
+		B540A81A1B4A736F001E9EBA /* Icon-29.png in Resources */ = {isa = PBXBuildFile; fileRef = B540A80F1B4A736F001E9EBA /* Icon-29.png */; };
+		B540A81B1B4A736F001E9EBA /* Icon-29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B540A8101B4A736F001E9EBA /* Icon-29@2x.png */; };
+		B540A81C1B4A736F001E9EBA /* Icon-29@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B540A8111B4A736F001E9EBA /* Icon-29@3x.png */; };
+		B540A81D1B4A736F001E9EBA /* Icon-40.png in Resources */ = {isa = PBXBuildFile; fileRef = B540A8121B4A736F001E9EBA /* Icon-40.png */; };
+		B540A81E1B4A736F001E9EBA /* Icon-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B540A8131B4A736F001E9EBA /* Icon-40@2x.png */; };
+		B540A81F1B4A736F001E9EBA /* Icon-40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B540A8141B4A736F001E9EBA /* Icon-40@3x.png */; };
+		B540A8201B4A736F001E9EBA /* Icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B540A8151B4A736F001E9EBA /* Icon-60@2x.png */; };
+		B540A8211B4A736F001E9EBA /* Icon-60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B540A8161B4A736F001E9EBA /* Icon-60@3x.png */; };
+		B540A8221B4A736F001E9EBA /* Icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = B540A8171B4A736F001E9EBA /* Icon-76.png */; };
+		B540A8231B4A736F001E9EBA /* Icon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B540A8181B4A736F001E9EBA /* Icon-76@2x.png */; };
+		B540A8241B4A736F001E9EBA /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B540A8191B4A736F001E9EBA /* iTunesArtwork@2x.png */; };
 		B57752351B1E681A002DAFE7 /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57752341B1E681A002DAFE7 /* MainNavigationController.swift */; };
 		B5EF530C1B1D393A00F1376E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EF530B1B1D393A00F1376E /* AppDelegate.swift */; };
 		B5EF530F1B1D393A00F1376E /* UCApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B5EF530D1B1D393A00F1376E /* UCApp.xcdatamodeld */; };
@@ -32,6 +68,42 @@
 /* Begin PBXFileReference section */
 		3F4D34FB5739413BE8EA38C4 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		7B430729BEDA665A51F6B6C8 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		B5274F1F1B3E232A009184FE /* OfferItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OfferItemCell.xib; sourceTree = "<group>"; };
+		B5274F211B3E29BA009184FE /* TodaysOffersController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodaysOffersController.swift; sourceTree = "<group>"; };
+		B5274F231B3E29D6009184FE /* OfferCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OfferCell.swift; sourceTree = "<group>"; };
+		B5274F251B3E29F5009184FE /* OfferDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OfferDetailViewController.swift; sourceTree = "<group>"; };
+		B5274F271B3E2E5A009184FE /* BuyButtonCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BuyButtonCell.xib; sourceTree = "<group>"; };
+		B540A7E31B49F395001E9EBA /* OfferDetailTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OfferDetailTabViewController.swift; sourceTree = "<group>"; };
+		B540A7E51B49F8A2001E9EBA /* LiveFeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveFeedViewController.swift; sourceTree = "<group>"; };
+		B540A7EB1B49FDE3001E9EBA /* add_user_filled-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "add_user_filled-32.png"; path = "Images/add_user_filled-32.png"; sourceTree = "<group>"; };
+		B540A7EC1B49FDE3001E9EBA /* add_user-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "add_user-32.png"; path = "Images/add_user-32.png"; sourceTree = "<group>"; };
+		B540A7ED1B49FDE3001E9EBA /* bar_filled-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bar_filled-32.png"; path = "Images/bar_filled-32.png"; sourceTree = "<group>"; };
+		B540A7EE1B49FDE3001E9EBA /* bar-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bar-32.png"; path = "Images/bar-32.png"; sourceTree = "<group>"; };
+		B540A7EF1B49FDE3001E9EBA /* home_sold_img1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = home_sold_img1.png; path = Images/home_sold_img1.png; sourceTree = "<group>"; };
+		B540A7F01B49FDE3001E9EBA /* home_sold_img2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = home_sold_img2.png; path = Images/home_sold_img2.png; sourceTree = "<group>"; };
+		B540A7F11B49FDE3001E9EBA /* uc-logotype-black-trans-1200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "uc-logotype-black-trans-1200.png"; path = "Images/uc-logotype-black-trans-1200.png"; sourceTree = "<group>"; };
+		B540A7F21B49FDE3001E9EBA /* user_female_circle_filled-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "user_female_circle_filled-32.png"; path = "Images/user_female_circle_filled-32.png"; sourceTree = "<group>"; };
+		B540A7F31B49FDE3001E9EBA /* user_female_circle-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "user_female_circle-32.png"; path = "Images/user_female_circle-32.png"; sourceTree = "<group>"; };
+		B540A7F41B49FDE3001E9EBA /* user_male_circle_filled-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "user_male_circle_filled-32.png"; path = "Images/user_male_circle_filled-32.png"; sourceTree = "<group>"; };
+		B540A7F51B49FDE3001E9EBA /* user_male_circle-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "user_male_circle-32.png"; path = "Images/user_male_circle-32.png"; sourceTree = "<group>"; };
+		B540A7F61B49FDE3001E9EBA /* user_male_filled-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "user_male_filled-32.png"; path = "Images/user_male_filled-32.png"; sourceTree = "<group>"; };
+		B540A7F71B49FDE3001E9EBA /* user_male-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "user_male-32.png"; path = "Images/user_male-32.png"; sourceTree = "<group>"; };
+		B540A7F81B49FDE3001E9EBA /* wine_bottle_filled-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "wine_bottle_filled-32.png"; path = "Images/wine_bottle_filled-32.png"; sourceTree = "<group>"; };
+		B540A7F91B49FDE3001E9EBA /* wine_bottle-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "wine_bottle-32.png"; path = "Images/wine_bottle-32.png"; sourceTree = "<group>"; };
+		B540A7FA1B49FDE3001E9EBA /* wine_glass_filled-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "wine_glass_filled-32.png"; path = "Images/wine_glass_filled-32.png"; sourceTree = "<group>"; };
+		B540A7FB1B49FDE3001E9EBA /* wine_glass-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "wine_glass-32.png"; path = "Images/wine_glass-32.png"; sourceTree = "<group>"; };
+		B540A7FC1B49FDE3001E9EBA /* wines_home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = wines_home.png; path = Images/wines_home.png; sourceTree = "<group>"; };
+		B540A80F1B4A736F001E9EBA /* Icon-29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-29.png"; path = "Images/Icon-29.png"; sourceTree = "<group>"; };
+		B540A8101B4A736F001E9EBA /* Icon-29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-29@2x.png"; path = "Images/Icon-29@2x.png"; sourceTree = "<group>"; };
+		B540A8111B4A736F001E9EBA /* Icon-29@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-29@3x.png"; path = "Images/Icon-29@3x.png"; sourceTree = "<group>"; };
+		B540A8121B4A736F001E9EBA /* Icon-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-40.png"; path = "Images/Icon-40.png"; sourceTree = "<group>"; };
+		B540A8131B4A736F001E9EBA /* Icon-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-40@2x.png"; path = "Images/Icon-40@2x.png"; sourceTree = "<group>"; };
+		B540A8141B4A736F001E9EBA /* Icon-40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-40@3x.png"; path = "Images/Icon-40@3x.png"; sourceTree = "<group>"; };
+		B540A8151B4A736F001E9EBA /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-60@2x.png"; path = "Images/Icon-60@2x.png"; sourceTree = "<group>"; };
+		B540A8161B4A736F001E9EBA /* Icon-60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-60@3x.png"; path = "Images/Icon-60@3x.png"; sourceTree = "<group>"; };
+		B540A8171B4A736F001E9EBA /* Icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-76.png"; path = "Images/Icon-76.png"; sourceTree = "<group>"; };
+		B540A8181B4A736F001E9EBA /* Icon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-76@2x.png"; path = "Images/Icon-76@2x.png"; sourceTree = "<group>"; };
+		B540A8191B4A736F001E9EBA /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iTunesArtwork@2x.png"; path = "Images/iTunesArtwork@2x.png"; sourceTree = "<group>"; };
 		B57752341B1E681A002DAFE7 /* MainNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
 		B5EF53061B1D393A00F1376E /* UCApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UCApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5EF530A1B1D393A00F1376E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -76,11 +148,52 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		B540A7EA1B49FDD0001E9EBA /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				B540A80F1B4A736F001E9EBA /* Icon-29.png */,
+				B540A8101B4A736F001E9EBA /* Icon-29@2x.png */,
+				B540A8111B4A736F001E9EBA /* Icon-29@3x.png */,
+				B540A8121B4A736F001E9EBA /* Icon-40.png */,
+				B540A8131B4A736F001E9EBA /* Icon-40@2x.png */,
+				B540A8141B4A736F001E9EBA /* Icon-40@3x.png */,
+				B540A8151B4A736F001E9EBA /* Icon-60@2x.png */,
+				B540A8161B4A736F001E9EBA /* Icon-60@3x.png */,
+				B540A8171B4A736F001E9EBA /* Icon-76.png */,
+				B540A8181B4A736F001E9EBA /* Icon-76@2x.png */,
+				B540A8191B4A736F001E9EBA /* iTunesArtwork@2x.png */,
+				B540A7EB1B49FDE3001E9EBA /* add_user_filled-32.png */,
+				B540A7EC1B49FDE3001E9EBA /* add_user-32.png */,
+				B540A7ED1B49FDE3001E9EBA /* bar_filled-32.png */,
+				B540A7EE1B49FDE3001E9EBA /* bar-32.png */,
+				B540A7EF1B49FDE3001E9EBA /* home_sold_img1.png */,
+				B540A7F01B49FDE3001E9EBA /* home_sold_img2.png */,
+				B540A7F11B49FDE3001E9EBA /* uc-logotype-black-trans-1200.png */,
+				B540A7F21B49FDE3001E9EBA /* user_female_circle_filled-32.png */,
+				B540A7F31B49FDE3001E9EBA /* user_female_circle-32.png */,
+				B540A7F41B49FDE3001E9EBA /* user_male_circle_filled-32.png */,
+				B540A7F51B49FDE3001E9EBA /* user_male_circle-32.png */,
+				B540A7F61B49FDE3001E9EBA /* user_male_filled-32.png */,
+				B540A7F71B49FDE3001E9EBA /* user_male-32.png */,
+				B540A7F81B49FDE3001E9EBA /* wine_bottle_filled-32.png */,
+				B540A7F91B49FDE3001E9EBA /* wine_bottle-32.png */,
+				B540A7FA1B49FDE3001E9EBA /* wine_glass_filled-32.png */,
+				B540A7FB1B49FDE3001E9EBA /* wine_glass-32.png */,
+				B540A7FC1B49FDE3001E9EBA /* wines_home.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		B57752361B1E6822002DAFE7 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
 				B5EF53101B1D393A00F1376E /* AgeVerifyViewController.swift */,
 				B57752341B1E681A002DAFE7 /* MainNavigationController.swift */,
+				B5274F211B3E29BA009184FE /* TodaysOffersController.swift */,
+				B5274F231B3E29D6009184FE /* OfferCell.swift */,
+				B5274F251B3E29F5009184FE /* OfferDetailViewController.swift */,
+				B540A7E31B49F395001E9EBA /* OfferDetailTabViewController.swift */,
+				B540A7E51B49F8A2001E9EBA /* LiveFeedViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -108,6 +221,7 @@
 		B5EF53081B1D393A00F1376E /* UCApp */ = {
 			isa = PBXGroup;
 			children = (
+				B540A7EA1B49FDD0001E9EBA /* Images */,
 				B57752361B1E6822002DAFE7 /* Controllers */,
 				B5EF530B1B1D393A00F1376E /* AppDelegate.swift */,
 				B5EF53121B1D393A00F1376E /* Main.storyboard */,
@@ -116,6 +230,8 @@
 				B5EF530D1B1D393A00F1376E /* UCApp.xcdatamodeld */,
 				B5EF53091B1D393A00F1376E /* Supporting Files */,
 				B5EF532E1B1D9A3A00F1376E /* MainOfferItemView.swift */,
+				B5274F1F1B3E232A009184FE /* OfferItemCell.xib */,
+				B5274F271B3E2E5A009184FE /* BuyButtonCell.xib */,
 			);
 			path = UCApp;
 			sourceTree = "<group>";
@@ -205,6 +321,7 @@
 				TargetAttributes = {
 					B5EF53051B1D393A00F1376E = {
 						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = GK9AW53C7V;
 					};
 					B5EF531D1B1D393A00F1376E = {
 						CreatedOnToolsVersion = 6.3.2;
@@ -212,7 +329,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B5EF53011B1D393A00F1376E /* Build configuration list for PBXProject "UCApp" */;
+			buildConfigurationList = B5EF53011B1D393A00F1376E /* Build configuration list for PBXProject "Underground Cellar" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -237,8 +354,39 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5EF53141B1D393A00F1376E /* Main.storyboard in Resources */,
+				B540A8221B4A736F001E9EBA /* Icon-76.png in Resources */,
+				B540A8081B49FDE3001E9EBA /* user_male_filled-32.png in Resources */,
+				B540A8021B49FDE3001E9EBA /* home_sold_img2.png in Resources */,
+				B540A8001B49FDE3001E9EBA /* bar-32.png in Resources */,
 				B5EF53191B1D393A00F1376E /* LaunchScreen.xib in Resources */,
+				B540A7FF1B49FDE3001E9EBA /* bar_filled-32.png in Resources */,
+				B540A8051B49FDE3001E9EBA /* user_female_circle-32.png in Resources */,
+				B540A80E1B49FDE3001E9EBA /* wines_home.png in Resources */,
+				B540A80B1B49FDE3001E9EBA /* wine_bottle-32.png in Resources */,
+				B540A8041B49FDE3001E9EBA /* user_female_circle_filled-32.png in Resources */,
+				B540A80C1B49FDE3001E9EBA /* wine_glass_filled-32.png in Resources */,
+				B540A8201B4A736F001E9EBA /* Icon-60@2x.png in Resources */,
+				B540A80D1B49FDE3001E9EBA /* wine_glass-32.png in Resources */,
+				B540A8011B49FDE3001E9EBA /* home_sold_img1.png in Resources */,
+				B5274F281B3E2E5A009184FE /* BuyButtonCell.xib in Resources */,
+				B540A8231B4A736F001E9EBA /* Icon-76@2x.png in Resources */,
+				B540A8091B49FDE3001E9EBA /* user_male-32.png in Resources */,
 				B5EF53161B1D393A00F1376E /* Images.xcassets in Resources */,
+				B540A8071B49FDE3001E9EBA /* user_male_circle-32.png in Resources */,
+				B540A8031B49FDE3001E9EBA /* uc-logotype-black-trans-1200.png in Resources */,
+				B540A8241B4A736F001E9EBA /* iTunesArtwork@2x.png in Resources */,
+				B540A8211B4A736F001E9EBA /* Icon-60@3x.png in Resources */,
+				B540A7FE1B49FDE3001E9EBA /* add_user-32.png in Resources */,
+				B540A81C1B4A736F001E9EBA /* Icon-29@3x.png in Resources */,
+				B5274F201B3E232A009184FE /* OfferItemCell.xib in Resources */,
+				B540A80A1B49FDE3001E9EBA /* wine_bottle_filled-32.png in Resources */,
+				B540A8061B49FDE3001E9EBA /* user_male_circle_filled-32.png in Resources */,
+				B540A7FD1B49FDE3001E9EBA /* add_user_filled-32.png in Resources */,
+				B540A81B1B4A736F001E9EBA /* Icon-29@2x.png in Resources */,
+				B540A81E1B4A736F001E9EBA /* Icon-40@2x.png in Resources */,
+				B540A81A1B4A736F001E9EBA /* Icon-29.png in Resources */,
+				B540A81D1B4A736F001E9EBA /* Icon-40.png in Resources */,
+				B540A81F1B4A736F001E9EBA /* Icon-40@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,11 +452,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B540A7E61B49F8A2001E9EBA /* LiveFeedViewController.swift in Sources */,
+				B5274F221B3E29BA009184FE /* TodaysOffersController.swift in Sources */,
 				B57752351B1E681A002DAFE7 /* MainNavigationController.swift in Sources */,
+				B540A7E41B49F395001E9EBA /* OfferDetailTabViewController.swift in Sources */,
 				B5EF53111B1D393A00F1376E /* AgeVerifyViewController.swift in Sources */,
 				B5EF530C1B1D393A00F1376E /* AppDelegate.swift in Sources */,
 				B5EF530F1B1D393A00F1376E /* UCApp.xcdatamodeld in Sources */,
 				B5EF532F1B1D9A3A00F1376E /* MainOfferItemView.swift in Sources */,
+				B5274F261B3E29F5009184FE /* OfferDetailViewController.swift in Sources */,
+				B5274F241B3E29D6009184FE /* OfferCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +591,9 @@
 			baseConfigurationReference = 3F4D34FB5739413BE8EA38C4 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = UCApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
@@ -445,6 +601,7 @@
 					"$(PROJECT_DIR)/build/Debug-iphoneos",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -453,6 +610,9 @@
 			baseConfigurationReference = 7B430729BEDA665A51F6B6C8 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = UCApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
@@ -460,6 +620,7 @@
 					"$(PROJECT_DIR)/build/Debug-iphoneos",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -500,7 +661,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B5EF53011B1D393A00F1376E /* Build configuration list for PBXProject "UCApp" */ = {
+		B5EF53011B1D393A00F1376E /* Build configuration list for PBXProject "Underground Cellar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B5EF53261B1D393A00F1376E /* Debug */,

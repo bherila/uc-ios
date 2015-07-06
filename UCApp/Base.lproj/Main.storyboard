@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Today's Offers-->
+        <scene sceneID="3PM-wZ-ni7">
+            <objects>
+                <collectionViewController id="rRA-HT-U68" customClass="TodaysOffersController" customModule="UCApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="mla-Lp-1yE">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="HK0-T3-aNw">
+                            <size key="itemSize" width="275" height="220"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells/>
+                        <connections>
+                            <outlet property="dataSource" destination="rRA-HT-U68" id="Rvw-q7-F5h"/>
+                            <outlet property="delegate" destination="rRA-HT-U68" id="T1s-go-jGZ"/>
+                        </connections>
+                    </collectionView>
+                    <navigationItem key="navigationItem" title="Today's Offers" id="H1F-Te-hak"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <segue destination="C2E-uO-xnv" kind="show" identifier="ShowOffer" id="gXP-zV-jxK"/>
+                    </connections>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yjn-dE-7Zg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1345" y="-783"/>
+        </scene>
+        <!--Live Feed-->
+        <scene sceneID="iXi-bB-WdP">
+            <objects>
+                <tableViewController title="Live Feed" id="j5m-Dc-TVy" customClass="LiveFeedViewController" customModule="UCApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="2L6-MM-7tJ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="SimpleTableItem" textLabel="hob-mZ-kcS" style="IBUITableViewCellStyleDefault" id="lMI-ta-eej">
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="lMI-ta-eej" id="gGJ-A5-nyT">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="hob-mZ-kcS">
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="j5m-Dc-TVy" id="tZx-gA-wXP"/>
+                            <outlet property="delegate" destination="j5m-Dc-TVy" id="aPG-bs-me5"/>
+                        </connections>
+                    </tableView>
+                    <tabBarItem key="tabBarItem" title="Live Feed" image="user_male_filled-32.png" id="HeI-uH-CBA"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jf8-NP-Ngc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1855" y="107"/>
+        </scene>
+        <!--Offer Details-->
+        <scene sceneID="IYo-ph-XsF">
+            <objects>
+                <viewController id="NMT-4V-ofl" customClass="OfferDetailViewController" customModule="UCApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="kMU-re-qCw"/>
+                        <viewControllerLayoutGuide type="bottom" id="eQN-ds-0JX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="uXc-Zt-Qus">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qpj-Sp-bcO">
+                                <rect key="frame" x="0.0" y="64" width="320" height="455"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Qpj-Sp-bcO" secondAttribute="trailing" id="F0R-I6-Mge"/>
+                            <constraint firstItem="Qpj-Sp-bcO" firstAttribute="leading" secondItem="uXc-Zt-Qus" secondAttribute="leading" id="F9v-Qi-Ted"/>
+                            <constraint firstItem="Qpj-Sp-bcO" firstAttribute="top" secondItem="kMU-re-qCw" secondAttribute="bottom" id="awK-Ur-mTn"/>
+                            <constraint firstItem="Qpj-Sp-bcO" firstAttribute="bottom" secondItem="eQN-ds-0JX" secondAttribute="top" id="dHt-b2-XJt"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Offer Details" image="wine_glass_filled-32.png" id="Pa1-aW-nLg"/>
+                    <connections>
+                        <outlet property="webView" destination="Qpj-Sp-bcO" id="UuO-65-tVt"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Vqs-Zr-kgD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1863" y="-522"/>
+        </scene>
+        <!--Underground Cellar-->
+        <scene sceneID="JhB-3K-lzF">
+            <objects>
+                <navigationController storyboardIdentifier="TodaysOffers" title="Underground Cellar" automaticallyAdjustsScrollViewInsets="NO" id="oiE-Dg-ocp" customClass="MainNavigationController" customModule="UCApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="0na-Rr-ux6">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="rRA-HT-U68" kind="relationship" relationship="rootViewController" id="Zbk-G1-2d3"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="i4Z-5R-WDL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="941" y="-778"/>
+        </scene>
+        <!--Age Verification-->
+        <scene sceneID="pdR-8c-7k6">
+            <objects>
+                <viewController storyboardIdentifier="AgeVerify" title="Age Verification" id="Is7-cj-sya" customClass="AgeVerifyViewController" customModule="UCApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Uhy-SH-XLo"/>
+                        <viewControllerLayoutGuide type="bottom" id="acS-QI-EmO"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Lyh-gC-rhU">
+                        <rect key="frame" x="0.0" y="0.0" width="400" height="650"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="M5w-Bg-Rec">
+                                <rect key="frame" x="0.0" y="20" width="400" height="44"/>
+                                <items>
+                                    <navigationItem title="Age Verification" id="3Q6-qQ-JmT"/>
+                                </items>
+                            </navigationBar>
+                            <imageView autoresizesSubviews="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" image="uc-logotype-black-trans-1200.png" translatesAutoresizingMaskIntoConstraints="NO" id="EN1-Xx-F3f">
+                                <rect key="frame" x="52" y="89" width="296" height="231"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please verify your age to continue" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dyd-2P-hXn">
+                                <rect key="frame" x="71" y="328" width="259.5" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="ivh-C6-j0b">
+                                <rect key="frame" x="40.5" y="367.5" width="320" height="162"/>
+                                <date key="date" timeIntervalSinceReferenceDate="454969257.52309501">
+                                    <!--2015-06-02 20:20:57 +0000-->
+                                </date>
+                                <date key="maximumDate" timeIntervalSinceReferenceDate="1167562800">
+                                    <!--2037-12-31 11:00:00 +0000-->
+                                </date>
+                            </datePicker>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0K1-gx-U4K">
+                                <rect key="frame" x="169.5" y="537.5" width="62" height="30"/>
+                                <state key="normal" title="Continue">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="verifyAgeButton:" destination="Is7-cj-sya" eventType="touchUpInside" id="DFz-5v-v6N"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="M5w-Bg-Rec" firstAttribute="leading" secondItem="Lyh-gC-rhU" secondAttribute="leadingMargin" id="1CI-dq-Xkk"/>
+                            <constraint firstItem="M5w-Bg-Rec" firstAttribute="top" secondItem="Uhy-SH-XLo" secondAttribute="bottom" id="F4j-mN-NUq"/>
+                            <constraint firstItem="M5w-Bg-Rec" firstAttribute="leading" secondItem="Lyh-gC-rhU" secondAttribute="leadingMargin" constant="-16" id="FLF-j8-vUD"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="EN1-Xx-F3f" secondAttribute="trailing" constant="36" id="JQq-q9-xt6"/>
+                            <constraint firstItem="EN1-Xx-F3f" firstAttribute="top" secondItem="M5w-Bg-Rec" secondAttribute="bottom" constant="25" id="K86-ux-Aff"/>
+                            <constraint firstAttribute="centerX" secondItem="0K1-gx-U4K" secondAttribute="centerX" constant="-0.5" id="KQL-VF-iDf"/>
+                            <constraint firstAttribute="centerX" secondItem="EN1-Xx-F3f" secondAttribute="centerX" constant="-0.5" id="RFk-LQ-EcC"/>
+                            <constraint firstItem="ivh-C6-j0b" firstAttribute="top" secondItem="dyd-2P-hXn" secondAttribute="bottom" constant="19" id="RZg-eg-a9X"/>
+                            <constraint firstItem="dyd-2P-hXn" firstAttribute="top" secondItem="EN1-Xx-F3f" secondAttribute="bottom" constant="8" id="Utq-23-Von"/>
+                            <constraint firstAttribute="centerX" secondItem="ivh-C6-j0b" secondAttribute="centerX" constant="-0.5" id="WM6-Ve-lbt"/>
+                            <constraint firstItem="EN1-Xx-F3f" firstAttribute="leading" secondItem="Lyh-gC-rhU" secondAttribute="leadingMargin" constant="36" id="eK4-uV-LoT"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="M5w-Bg-Rec" secondAttribute="trailing" constant="-16" id="kYU-qa-5LP"/>
+                            <constraint firstAttribute="centerX" secondItem="dyd-2P-hXn" secondAttribute="centerX" constant="-0.5" id="oAb-er-6EW"/>
+                            <constraint firstItem="0K1-gx-U4K" firstAttribute="top" secondItem="ivh-C6-j0b" secondAttribute="bottom" constant="8" id="w2s-qk-36f"/>
+                            <constraint firstItem="M5w-Bg-Rec" firstAttribute="trailing" secondItem="Lyh-gC-rhU" secondAttribute="trailingMargin" constant="1" id="yvy-It-dJT"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="1CI-dq-Xkk"/>
+                                <exclude reference="yvy-It-dJT"/>
+                                <exclude reference="RFk-LQ-EcC"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" title="Verify Age" id="n1M-wq-qkF"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="400" height="650"/>
+                    <connections>
+                        <outlet property="agePicker" destination="ivh-C6-j0b" id="GSO-hd-XiL"/>
+                        <segue destination="oiE-Dg-ocp" kind="show" identifier="AgeVerified" id="P1s-26-wAx"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yRn-bx-BMW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="427" y="-811"/>
+        </scene>
+        <!--Offer Detail-->
+        <scene sceneID="H8m-ch-qsw">
+            <objects>
+                <tabBarController title="Offer Detail" automaticallyAdjustsScrollViewInsets="NO" id="C2E-uO-xnv" customClass="OfferDetailTabViewController" customModule="UCApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="sAc-J6-h1t">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="NMT-4V-ofl" kind="relationship" relationship="viewControllers" id="c9c-n6-M59"/>
+                        <segue destination="j5m-Dc-TVy" kind="relationship" relationship="viewControllers" id="Aiy-eg-AOZ"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Uva-ww-8IW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1345" y="-141"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="uc-logotype-black-trans-1200.png" width="1200" height="231"/>
+        <image name="user_male_filled-32.png" width="32" height="32"/>
+        <image name="wine_glass_filled-32.png" width="32" height="32"/>
+    </resources>
+</document>
